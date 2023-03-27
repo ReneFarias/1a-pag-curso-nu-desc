@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Pag Nu+Descomplica</title>
+    <!-- serve para pegar o arquivo css estilização da pagina -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- <style>
+   seletor é o body 
+    body {
+        propriedade (pode ser class ou id) : e valor 
+        background-color: red; 
+    }
+</style>
+ outra forma de usar é a tag style dentro das tags, contendo a propriedade e valor 
+    <body style="background-color: red;"> -->
+    <body>
+    <!-- tag section para definir uma sessão de forma semantica, e adicionar um id que é um atributo especifico -->
+    <section id="inicio">
+        <!-- width que significa largura e height que é a altura, pode declarar na propria tag -->
+        <img src="image.png" alt="imagem do estudo" width="600px" height="400px" />
+        <!-- a tag div é como se fosse uma caixa onde ira passar as propriedades para os elementos que estiverem dentro dela 
+    e tambem passamos o tributo class onde utillizamos para colocar estilos e funções, ou poderia ser o id que é mais util para caso especifico  -->
+    <div class="content">
+        <h1 class="title">Curso de Introdução Desenvolvimento Web</h1>
+        <!-- id definida para ser pego o resultado -->
+        <h2 class="subtitle" id="result"></h2>
+        <!-- a tag id para ser atributo unico e especifico -->
+        <input placeholder="seu nome" name="name" id="nome" />
+        <!-- o onclick serve para executar a função qundo for clicado -->
+        <button class="primary" onclick="getValue()">Entrar</button>
+        <button class="secondary" onclick="removeValue()">Sair</button>
+    </div>
+    
+    <div id="teste">
+        Olá mundo
+    </div>
+    <span>teste</span>
+    </section>
+    <!-- script src usado para imoportar o codigo javascript -->
+    <script src="script.js"></script>
+</body>
+</html>

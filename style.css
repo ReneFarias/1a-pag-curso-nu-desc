@@ -1,0 +1,76 @@
+/* Seletor{Propriedade:Valor} */
+body{
+    /* cor de fundo da area selecionada */
+    background-color: #111827;
+    /* cor da letra */
+    color: #fff;
+    /* tamanho da altura */
+    height: 100%;
+}
+
+section {
+    /* posição absoluta que definir, seja top left ou right */
+    position: absolute;
+    /* vai jogar 50% pro lado */
+    left: 50%;
+    /* transforma o eixo x e y do elemento, jogando 50% da metade e não do inicio */
+    transform: translate(-50%);
+}
+
+img {
+    /* para adicionar bordas nas imagens */
+    border-radius: 50px;
+}
+
+.content {
+    /* margin é usado para afastar os elementos da borda, na ordem TOPO DIREITA BAIXO ESQUERDA, ou eixos Y e X, ou um numero para todas */
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+
+button {
+    /* serve para afastar os elementos de dentro das bordas 15 em cima e em baixo, e 30 pras laterais */
+    padding: 15px 30px;
+    border-radius: 5px;
+    /* para retirar aquela listrinha da borda */
+    border: none;
+    /* cursor define o formato do mouse, pointer é o dedinho indica link */
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #10a990;
+}
+
+.secondary {
+    background-color: #cc0000;
+    color: #fff;
+}
+
+input {
+    border: none;
+    /* margem 15 para cima e baixo e 2 nas 2 laterais */
+    padding: 15px 2px;
+    /* para aplicar espaçamento somente da margem escolhina */
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#teste {
+    /* color serve para definir cor do texto da tag, pode ser nome e codigo hexadecimal sempre com # 3 a 6 digitos */
+    color: red;
+    /* altera a cor do fundo */
+    background-color: green;
+    /* definir a altura dos nossos elementos com height */
+    height: 100px;
+    /* definir a largura dos nossos elementos com width, tambem causa quebra de linha */
+    width: 50px;
+    /* border para colocar uma borda em volta da div, o tamanho em pixels, solid para ser sem tracejado, e a cor */
+    border: 2px solid red;
+    /* adicionar borda arredondada, 50% fica um circulo */
+    border-radius: 5px;
+    /* afasta dos elementos ao redor da div */
+    margin: 100px;
+    /* afasta o conteudo dentro da div ao redor da div */
+    padding: 20px;
+}
